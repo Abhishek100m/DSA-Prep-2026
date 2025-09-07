@@ -1,4 +1,4 @@
-package com.prep.dsa.arrays_questions.sorting_algos;
+package com.prep.dsa.arrays.sorting_algos;
 
 
 
