@@ -12,6 +12,7 @@ Array Easy Questions:
       Maximum Consecutive Ones  
       Find the number that appears once, and other numbers twice  
       Longest subarray with given sum K (positives)  
-      Longest subarray with sum K (Positives + Negatives)  
+      Longest subarray with sum K (Positives + Negatives) 
+      helo ram bhaiya 
 
 
