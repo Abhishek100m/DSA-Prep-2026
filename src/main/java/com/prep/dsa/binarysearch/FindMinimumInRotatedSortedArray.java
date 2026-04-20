@@ -29,6 +29,13 @@ public class FindMinimumInRotatedSortedArray {
         while(low<=high){
             int mid = low + (high-low)/2;
 
+            //condition for duplicates
+            if(arr[low] == arr[mid] && arr[mid] == arr[high]){
+                low = low+1;
+                high = high-1;
+                continue;
+            }
+
             //optional optimization
             // if search space is already sorted, then always arr[low] is smaller element in that search space,
             if(arr[low]<= arr[high]){
