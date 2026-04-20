@@ -21,7 +21,7 @@ public class FindLowerUpperBound {
 
     }
 
-    private static int findUpperBound(int[] arr, int target) {
+    public static int findUpperBound(int[] arr, int target) {
         int ans = arr.length;
         int low = 0, high = arr.length-1;
         while(low<=high){
@@ -36,7 +36,7 @@ public class FindLowerUpperBound {
         return ans;
     }
 
-    private static int findLowerBound(int[] arr, int target) {
+    public static int findLowerBound(int[] arr, int target) {
         int ans = arr.length;
         int low = 0, high = arr.length-1;
         while(low<=high){
