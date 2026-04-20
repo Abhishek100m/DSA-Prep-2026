@@ -1,6 +1,6 @@
 package com.prep.dsa.binarysearch;
 
-public class FirstAndLastOccerance
+public class _4_FirstAndLastOccerance
 {
     /*
     First and last occurrence
@@ -26,10 +26,10 @@ Given an array of integers nums sorted in non-decreasing order, find the startin
     }
 
     private static int[] findFirstAndLastOccurance(int[] arr, int num) {
-        int lowerBound = FindLowerUpperBound.findLowerBound(arr, num);
+        int lowerBound = _1_FindLowerUpperBound.findLowerBound(arr, num);
         if(lowerBound == arr.length  || arr[lowerBound]!=num){
             return new int[]{-1,-1};
         }
-        return new int[]{lowerBound, FindLowerUpperBound.findUpperBound(arr,num)-1};
+        return new int[]{lowerBound, _1_FindLowerUpperBound.findUpperBound(arr,num)-1};
     }
 }

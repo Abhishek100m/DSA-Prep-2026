@@ -1,6 +1,6 @@
 package com.prep.dsa.binarysearch;
 
-public class SearchElementInRotatedArray {
+public class _5_SearchElementInRotatedArray {
     /*
     Search in rotated sorted array-I
 

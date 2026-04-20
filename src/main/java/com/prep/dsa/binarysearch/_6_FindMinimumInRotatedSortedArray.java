@@ -1,6 +1,6 @@
 package com.prep.dsa.binarysearch;
 
-public class FindMinimumInRotatedSortedArray {
+public class _6_FindMinimumInRotatedSortedArray {
     /*
     Find minimum in Rotated Sorted Array
 

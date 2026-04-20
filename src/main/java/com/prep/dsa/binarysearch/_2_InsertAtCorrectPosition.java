@@ -1,6 +1,6 @@
 package com.prep.dsa.binarysearch;
 
-public class InsertAtCorrectPosition {
+public class _2_InsertAtCorrectPosition {
     /*
        Problem Statement
 
@@ -19,9 +19,9 @@ public class InsertAtCorrectPosition {
     * */
     public static void main(String[] args) {
         int[] arr = {1,2,4,7}; int m1 = 6, m2 = 2;
-        int correctPosition = FindLowerUpperBound.findLowerBound(arr,m1);
+        int correctPosition = _1_FindLowerUpperBound.findLowerBound(arr,m1);
         System.out.println("if value is: "+ m1 +" Correct Position: "+ correctPosition);
-        correctPosition = FindLowerUpperBound.findLowerBound(arr,m2);
+        correctPosition = _1_FindLowerUpperBound.findLowerBound(arr,m2);
         System.out.println("if value is: "+ m2 +" Correct Position: "+ correctPosition);
     }
 }

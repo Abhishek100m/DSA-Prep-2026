@@ -1,6 +1,6 @@
 package com.prep.dsa.binarysearch;
 
-public class FIND_FloorAndCeil {
+public class _3_FIND_FloorAndCeil {
     /*
     Floor and Ceil in Sorted Array
 
@@ -35,8 +35,8 @@ public class FIND_FloorAndCeil {
     }
 
     private static int findCeil(int[] arr, int x) {
-        return FindLowerUpperBound.findLowerBound(arr,x) == arr.length ? -1 :
-                                                        arr[FindLowerUpperBound.findLowerBound(arr,x)];
+        return _1_FindLowerUpperBound.findLowerBound(arr,x) == arr.length ? -1 :
+                                                        arr[_1_FindLowerUpperBound.findLowerBound(arr,x)];
     }
 
     private static int findFloor(int[] arr, int x) {

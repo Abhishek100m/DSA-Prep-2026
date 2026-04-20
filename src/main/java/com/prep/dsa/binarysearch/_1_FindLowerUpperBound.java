@@ -1,6 +1,6 @@
 package com.prep.dsa.binarysearch;
 
-public class FindLowerUpperBound {
+public class _1_FindLowerUpperBound {
     /* if array = 1,2,3,3,5,8,8,10,10,12
         indices   0,1,2,3,4,5,6, 7, 8, 9, 10 .....
         Lower bound -> the smallest index which is greater or equal to target -> that is arr[index] >= target
