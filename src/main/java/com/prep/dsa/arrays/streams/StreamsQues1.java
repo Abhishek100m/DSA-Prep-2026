@@ -162,7 +162,7 @@ public class StreamsQues1 {
                 */
     }
 
-    private static void initialization() {
+    public static void initialization() {
         employees =  List.of(
                 new Employee(1, "Alice", "IT", 90000),
                 new Employee(2, "Bob", "IT", 80000),

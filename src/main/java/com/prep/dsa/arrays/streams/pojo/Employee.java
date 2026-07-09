@@ -25,6 +25,10 @@ public class Employee {
         return name;
     }
 
+    public int getId() {
+        return id;
+    }
+
     @Override
     public String toString() {
         return "Employee{" +
@@ -32,6 +36,6 @@ public class Employee {
                 ", name='" + name + '\'' +
                 ", department='" + department + '\'' +
                 ", salary=" + salary +
-                '}';
+                '}'+'\n';
     }
 }
