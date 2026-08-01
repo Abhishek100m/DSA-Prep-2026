@@ -38,8 +38,10 @@ public class _2_ParallelExecutionOf_3_Threads {
                         case 2 -> c3.await();
                     }
 
-                    if (number > MAX)
+                    if (number > MAX) {
+                        c1.signal();c2.signal();c3.signal();
                         return;
+                    }
                 }
 
                 System.out.println(Thread.currentThread().getName()

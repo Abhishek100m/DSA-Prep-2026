@@ -54,7 +54,7 @@ public class StreamsQues2 {
         String s4 = "swiss";
         Character c =  s4.chars().mapToObj(x->(char)x).
                 collect(Collectors.groupingBy(Function.identity(),LinkedHashMap::new,Collectors.counting()))
-                .entrySet().stream().filter(x-> x.getValue()<2).findFirst().get().getKey();
+                .entrySet().stream().filter(x-> x.getValue()==1).findFirst().get().getKey();
         System.out.println(c);
 
 
@@ -242,10 +242,9 @@ public class StreamsQues2 {
         List<Integer> firstList = Arrays.asList(1,2,3,4);
         List<Integer> secondList = Arrays.asList(3,4,5,6);
 
-        Set<Integer> secondSet = new HashSet<>(secondList);
 
         List<Integer> commonElements = firstList.stream()
-                .filter(secondSet::contains)
+                .filter(new HashSet<>(secondList)::contains)
                 .collect(Collectors.toList());
 
         System.out.println(commonElements);
